@@ -21,16 +21,16 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 49vh;
+    width: 27%;
+    height: 50vh;
     /*background: url('Free\ Vector\ _\ Composed.jpeg'); */  
     background-position: center;
 }
 
-.login-box{
+.Registration-box{
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 700%;
+    height: 600px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -55,7 +55,7 @@ h2{
 
 .input-box label{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -66,7 +66,7 @@ h2{
 
 .input-box input:focus~label,
 .input-box input:valid~label{
-    top: -5px;
+    top: -3px;
 }
 
 .input-box input{
