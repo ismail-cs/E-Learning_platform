@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('Free\ Vector\ _\ Gradient\ landscape\ design\ background.jpeg');
+    background: url('images/Free_Vector2.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -23,7 +23,6 @@ section{
     align-items: center;
     width: 25%;
     height: 49vh;
-    /*background: url('Free\ Vector\ _\ Composed.jpeg'); */  
     background-position: center;
 }
 
