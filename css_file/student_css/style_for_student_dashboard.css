@@ -1,0 +1,144 @@
+section.about .sec1 {
+    display:  grid;
+    grid-template-columns: 0.15fr 1.1fr;
+    
+    grid-gap: 0rem;
+}
+
+section.about .sec1 .left {
+    background-color: rgb(189, 189, 189);
+}
+
+section.about .sec1 .right {
+    background-color: rgb(191, 255, 170);
+}
+
+section.about .sec1 .left .up {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section.about {
+    display:  grid;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 1rem;
+}
+
+
+.about .sec1 .left .down {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.5em;
+    padding-top: 10%;
+    
+}
+
+.about .sec1 .left .down ul
+{
+    list-style: none;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about .sec1 .left .down ul li
+{
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about .sec1 .left .down ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;   
+    width: 100%;
+    margin-left: 5%
+}
+
+.about .sec1 .left .down ul li:hover
+{
+    background-color: #166979;
+    border-radius: 3px;   
+    width: 100%;
+}
+
+
+.about .sec1 .left {
+    text-align: center;
+}
+
+
+.about .sec1 .right .name {
+    
+    height: 130px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.about .sec1 .right .dash {
+    
+    height: 130px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.about .sec1  .right .catagory{
+    display: flex;
+    margin-left: 5%;
+} 
+
+.about .sec1  .right .catagory button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5%;
+    height: 100px;
+    margin-right: 3%;
+}
+
+.about .sec1 .right .catagory .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #166979;
+  }
+  
+  .about .sec1 .right .catagory .button1:hover {
+    background-color: #166979;
+    color: white;
+  }
+  
+  .about .sec1 .right .catagory .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #166979;
+  }
+  
+  .about .sec1 .right .catagory .button2:hover {
+    background-color: #166979;
+    color: white;
+  }
+
+  .about .sec1 .right .catagory .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #166979;
+  }
+  
+  .about .sec1 .right .catagory .button3:hover {
+    background-color: #166979;
+    color: white;
+  }
