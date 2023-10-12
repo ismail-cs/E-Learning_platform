@@ -17,6 +17,7 @@
 
 nav{
     padding: 10px 0;
+    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-between;
