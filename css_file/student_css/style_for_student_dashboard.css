@@ -1,32 +1,34 @@
-section.about .sec1 {
+section.page .sec1 {
     display:  grid;
-    grid-template-columns: 0.15fr 1.1fr;
+    grid-template-columns: 0.18fr 1.1fr;
     
     grid-gap: 0rem;
 }
 
-section.about .sec1 .left {
-    background-color: rgb(189, 189, 189);
+section.page .sec1 .left {
+    /*background-color: #133137;*/
+    background-color: #166979;
 }
 
-section.about .sec1 .right {
-    background-color: rgb(191, 255, 170);
+section.page .sec1 .right {
+    background-color: powderblue;
 }
 
-section.about .sec1 .left .up {
+section.page .sec1 .left .up {
     position: relative;
     text-align: center;
     margin-top: 15px;
+    
 }
 
-section.about {
+section.page {
     display:  grid;
     background-color: rgb(255, 255, 255);
     grid-gap: 1rem;
 }
 
 
-.about .sec1 .left .down {
+.page .sec1 .left .down {
     
     display: flex;
     flex-direction: column;
@@ -36,7 +38,21 @@ section.about {
     
 }
 
-.about .sec1 .left .down ul
+hr {
+    width:90%; 
+    text-align: left; 
+    margin-left:10; 
+    background-color: black; 
+    height: 1px;
+}
+
+
+.active, .page .sec1 .left .down ul li:hover{
+    background-color: #133137;
+    border-radius: 3px;
+}
+
+.page .sec1 .left .down ul
 {
     list-style: none;
     color: #fff; 
@@ -45,7 +61,7 @@ section.about {
     justify-content: space-evenly;
 }
 
-.about .sec1 .left .down ul li
+.page .sec1 .left .down ul li
 {
     width: 100%;
     text-align: left;
@@ -53,48 +69,52 @@ section.about {
     padding-bottom: 15px;
 }
 
-.about .sec1 .left .down ul li a
+.page .sec1 .left .down ul li a
 {
     text-decoration: none;
     font-weight: bold;
+    
     color: #ffffff;   
     width: 100%;
-    margin-left: 5%
+    margin-left: 5%;
+    font-size: 17px;
 }
 
-.about .sec1 .left .down ul li:hover
+.page .sec1 .left .down ul li:hover
 {
-    background-color: #166979;
+    background-color: #133137;
     border-radius: 3px;   
     width: 100%;
 }
 
 
-.about .sec1 .left {
+.page .sec1 .left {
     text-align: center;
 }
 
 
-.about .sec1 .right .name {
+.page .sec1 .right .name {
     
     height: 130px;
     margin-top: 5%;
     margin-left: 5%;
+    font-size: 35px;
 }
 
-.about .sec1 .right .dash {
+.page .sec1 .right .dash {
     
     height: 130px;
     margin-top: 1%;
     margin-left: 5%;
+    font-size: 25px;
 }
 
-.about .sec1  .right .catagory{
+.page .sec1  .right .catagory{
     display: flex;
     margin-left: 5%;
 } 
 
-.about .sec1  .right .catagory button {
+.page .sec1  .right .catagory button {
     border: none;
     color: white;
     padding: 16px 32px;
@@ -108,37 +128,53 @@ section.about {
     border-radius: 5%;
     height: 100px;
     margin-right: 3%;
+    font-size: 20px;
 }
 
-.about .sec1 .right .catagory .button1 {
-    background-color: white; 
+.page .sec1 .right .catagory .button1 {
+    background-color: rgb(233, 233, 233); 
     color: black; 
     border: 2px solid #166979;
   }
   
-  .about .sec1 .right .catagory .button1:hover {
+.page .sec1 .right .catagory .button1:hover {
     background-color: #166979;
     color: white;
-  }
+}
   
-  .about .sec1 .right .catagory .button2 {
-    background-color: white; 
+.page .sec1 .right .catagory .button2 {
+    background-color: rgb(233, 233, 233); 
     color: black; 
     border: 2px solid #166979;
-  }
+}
   
-  .about .sec1 .right .catagory .button2:hover {
+.page .sec1 .right .catagory .button2:hover {
     background-color: #166979;
     color: white;
-  }
+}
 
-  .about .sec1 .right .catagory .button3 {
-    background-color: white; 
+.page .sec1 .right .catagory .button3 {
+    background-color: rgb(233, 233, 233); 
     color: black; 
     border: 2px solid #166979;
-  }
+}
   
-  .about .sec1 .right .catagory .button3:hover {
+.page .sec1 .right .catagory .button3:hover {
     background-color: #166979;
     color: white;
-  }
+}
+
+
+
+.page .sec1 .right .details {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+th, td {
+    padding-bottom: 23px; /* Adjust the value as per your desired spacing */
+    padding-right: 30px;
+}
+  
