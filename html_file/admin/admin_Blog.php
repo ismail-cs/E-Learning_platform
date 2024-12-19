@@ -179,9 +179,9 @@ if (empty($_SESSION['user_name'])) {
 
 
                             <?php
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
+                            $servername = "db";
+                            $username = "ismail";
+                            $password = "password1";
                             $dbname = "e_learning";
 
                             // Create connection
@@ -238,9 +238,9 @@ if (empty($_SESSION['user_name'])) {
                         <h2>Notice Board</h2>
 
                         <?php
-                        $servername = "localhost";
-                        $username = "root";
-                        $password = "";
+                        $servername = "db";
+                        $username = "ismail";
+                        $password = "password1";
                         $dbname = "e_learning";
 
                         // Create connection

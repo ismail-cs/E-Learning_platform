@@ -263,9 +263,9 @@ if (empty($_SESSION['user_name'])) {
 
 <?php
     // Database connection parameters
-    $servername = "localhost"; // Replace with your server name
-    $username = "root"; // Replace with your database username
-    $password = ""; // Replace with your database password
+    $servername = "db"; // Replace with your server name
+    $username = "ismail"; // Replace with your database username
+    $password = "password1"; // Replace with your database password
     $dbname = "e_learning"; // Replace with your database name
 
     // Create connection
@@ -317,9 +317,9 @@ if (empty($_SESSION['user_name'])) {
 
     <?php
         // Database connection parameters
-        $servername = "localhost"; // Replace with your server name
-        $username = "root"; // Replace with your database username
-        $password = ""; // Replace with your database password
+        $servername = "db"; // Replace with your server name
+        $username = "ismail"; // Replace with your database username
+        $password = "password1"; // Replace with your database password
         $dbname = "e_learning"; // Replace with your database name
 
         // Create connection

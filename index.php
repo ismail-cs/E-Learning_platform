@@ -167,9 +167,9 @@
         <h1>Course List</h1>
         <div class="blocks-container">
         <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
+            $servername = "db";
+            $username = "ismail";
+            $password = "password1";
             $dbname = "e_learning";
 
             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -219,9 +219,9 @@
 
 
         <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
+        $servername = "db";
+        $username = "ismail";
+        $password = "password1";
         $dbname = "e_learning";
 
         // Create connection

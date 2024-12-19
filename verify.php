@@ -76,9 +76,9 @@ session_start(); // Start the session
 
 
                 // Database connection credentials
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
+                $servername = "db";
+                $username = "ismail";
+                $password = "password1";
                 $dbname = "e_learning";
 
                 // Create connection
@@ -125,9 +125,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 // Database connection credentials
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "db";
+$username = "ismail";
+$password = "password1";
 $dbname = "e_learning";
 
 // Create connection

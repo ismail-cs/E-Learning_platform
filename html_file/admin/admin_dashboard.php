@@ -201,9 +201,9 @@ if (empty($_SESSION['user_name'])) {
 
 
                     <?php
-                     $servername = "localhost"; // Replace with your MySQL server name
-                     $username = "root";       // Replace with your MySQL username
-                     $password = "";       // Replace with your MySQL password
+                     $servername = "db"; // Replace with your MySQL server name
+                     $username = "ismail";       // Replace with your MySQL username
+                     $password = "password1";       // Replace with your MySQL password
                      $dbname = "e_learning";            // Replace with your database name
 
                     $conn = mysqli_connect($servername, $username, $password, $dbname);

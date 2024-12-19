@@ -67,8 +67,8 @@
                             }
                             else{
                                 
-                                $hostName = "localhost";
-                                $dbUser = "root";
+                                $hostName = "db";
+                                $dbUser = "ismail";
                                 $dbPassword = "";
                                 $dbName = "e_learning_platform";
                                 $conn = mysqli_connect($hostName, $dbUser, $dbPassword, $dbName);

@@ -68,9 +68,9 @@ ini_set('display_errors', 1);
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "db";
+    $username = "ismail";
+    $password = "password1";
     $dbname = "e_learning";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);

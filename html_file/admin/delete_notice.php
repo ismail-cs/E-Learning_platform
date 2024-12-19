@@ -4,9 +4,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["delete"])) {
     // Retrieve notice ID from the form
     $notice_id = $_POST['notice_id'];
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "db";
+    $username = "ismail";
+    $password = "password1";
     $dbname = "e_learning";
 
     // Create connection

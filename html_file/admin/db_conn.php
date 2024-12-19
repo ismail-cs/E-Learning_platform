@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost", "root", "", "e_learning");
+$con = mysqli_connect("db", "ismail", "", "e_learning");
 
 if(!$con){
     echo "Connection Failed" . mysqli_connect();

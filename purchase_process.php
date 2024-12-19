@@ -120,9 +120,9 @@ ini_set('display_errors', 1);
 // Check if all necessary POST data and session variables are set
 if ( isset($_POST['phone_number'], $_POST['transaction_id'], $_POST['name']) && isset($_SESSION['course_name'], $_SESSION['price'], $_SESSION['course_id']) ) {
     
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "db";
+    $username = "ismail";
+    $password = "password1";
     $dbname = "e_learning";
 
     $conn = new mysqli($servername, $username, $password, $dbname);

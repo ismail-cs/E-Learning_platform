@@ -215,9 +215,9 @@ if (empty($_SESSION['user_name'])) {
 
                 <?php
                 // Database connection details
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
+                $servername = "db";
+                $username = "ismail";
+                $password = "password1";
                 $dbname = "e_learning";
 
                 // Create connection
@@ -273,9 +273,9 @@ if (empty($_SESSION['user_name'])) {
                 <?php // Delete instructor
 
                 // Database connection details (Ensure this part is not repeated multiple times in the code)
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
+                $servername = "db";
+                $username = "ismail";
+                $password = "password1";
                 $dbname = "e_learning";
 
                 // Create connection

@@ -1,8 +1,8 @@
 <?php
 // Replace these variables with your actual database credentials
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "db";
+$username = "ismail";
+$password = "password1";
 $dbname = "e_learning";
 
 try {

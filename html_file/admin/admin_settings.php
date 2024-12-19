@@ -114,9 +114,9 @@ if (empty($_SESSION['user_name'])) {
 
 
                     <?php
-                        $servername = "localhost";
-                        $username = "root";
-                        $password = "";
+                        $servername = "db";
+                        $username = "ismail";
+                        $password = "password1";
                         $dbname = "e_learning"; // Replace with your actual database name
 
                         // Create connection
@@ -159,9 +159,9 @@ if (empty($_SESSION['user_name'])) {
                     <script>
                         // Fetch data from PHP
                         <?php
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
+                            $servername = "db";
+                            $username = "ismail";
+                            $password = "password1";
                             $dbname = "e_learning";
 
                             // Create connection
